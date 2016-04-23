@@ -103,7 +103,7 @@ body {
 }
 
 .titleSubject {
-    font-size: 2em;;
+    font-size: 2em;
 }
 
 .site {
@@ -146,13 +146,15 @@ body {
 }
 
 .site .header a.extra {
-    color: #aaa;
+    /*color: #aaa;*/
+    color: black;
     text-decoration: none;
     margin-left: 1em;
 }
 
 .site .header a.extra:hover {
     color: black;
+    text-decoration: underline;
 }
 
 .site .meta {
@@ -239,6 +241,8 @@ body {
 }
 
 .footContent {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
     margin-right: 3em;
     line-height: 35px;
 }
