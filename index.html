@@ -4,10 +4,10 @@ title: xlbengle
 ---
 
 <div id="home">
-    <div class="sectionTitle">博文</div>
+    <h2 >博文</h2>
     <ul class="posts">
         {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &nbsp; &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
