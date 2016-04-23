@@ -81,6 +81,10 @@ body {
     background-color: white;
 }
 
+.titleSubject{
+    font-size:2em;;
+}
+
 .site {
     font-size: 110%;
     text-align: justify;
@@ -90,10 +94,21 @@ body {
 }
 
 .header {
+    border-bottom: 4px solid #eee;
     color: #a00;
     font-weight: bold;
-    padding: 2em 0 2em 0;
+    padding: 24px 0 6px 0;
+}
 
+.content{
+    margin: 24px 0;
+}
+
+.site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    overflow: hidden;
 }
 
 .site .header a {
@@ -117,14 +132,6 @@ body {
 
 .site .meta {
     color: #aaa;
-}
-
-.site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
 }
 
 .site .footer .contact {
