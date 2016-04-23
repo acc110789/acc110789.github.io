@@ -17,11 +17,11 @@ html {
 }
 
 /*h1, h2, h3, h4, h5, h6 {*/
-    /*font-size: 100%;*/
+/*font-size: 100%;*/
 /*}*/
 
 /*h1 {*/
-    /*margin-bottom: 1em;*/
+/*margin-bottom: 1em;*/
 /*}*/
 
 p {
@@ -78,11 +78,14 @@ body {
     font: 13.34px helvetica, arial, clean, sans-serif;
     *font-size: small;
     text-align: center;
-    background-color: white;
 }
 
-.titleSubject{
-    font-size:2em;;
+.outbackground {
+    background-color: antiquewhite;
+}
+
+.titleSubject {
+    font-size: 2em;;
 }
 
 .site {
@@ -90,7 +93,6 @@ body {
     text-align: justify;
     padding: 0 4em;
     line-height: 1.5em;
-    background-color: white;
 }
 
 .header {
@@ -100,15 +102,14 @@ body {
     padding: 24px 0 6px 0;
 }
 
-.content{
+.content {
     margin: 24px 0;
 }
 
 .site .footer {
-    font-size: 80%;
+    font-size: 90%;
     color: #666;
     border-top: 4px solid #eee;
-    overflow: hidden;
 }
 
 .site .header a {
@@ -205,4 +206,15 @@ body {
 
 #related h2 {
     margin-bottom: 1em;
+}
+
+.icon {
+    float: right;
+    width: 35px;
+    height: 35px;
+}
+
+.footContent {
+    margin-right: 3em;
+    line-height: 35px;
 }
