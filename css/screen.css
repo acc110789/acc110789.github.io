@@ -89,29 +89,29 @@ body {
     background-color: white;
 }
 
-.title {
+.header {
     color: #a00;
     font-weight: bold;
     padding: 2em 0 2em 0;
 
 }
 
-.site .title a {
+.site .header a {
     color: #a00;
     text-decoration: none;
 }
 
-.site .title a:hover {
+.site .header a:hover {
     color: black;
 }
 
-.site .title a.extra {
+.site .header a.extra {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
 }
 
-.site .title a.extra:hover {
+.site .header a.extra:hover {
     color: black;
 }
 
