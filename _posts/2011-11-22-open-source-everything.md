@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open Source (Almost) Everything
-category: science
+category: 科研
 ---
 
 ##{{ page.title }}

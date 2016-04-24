@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rejected Bio from The Setup
-category: tech
+category: 技术
 ---
 
 ##{{ page.title }}

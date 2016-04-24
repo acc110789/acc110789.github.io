@@ -21,23 +21,6 @@ html {
     background-color: rgba(42, 42, 42, 0.8);
 }
 
-p {
-    margin: 1em 0;
-}
-
-a {
-    color: #00a;
-}
-
-a:hover {
-    color: black;
-}
-
-a:visited {
-    color: #a0a;
-}
-
-
 /*****************************************************************************/
 /*
 /* Home
@@ -55,6 +38,7 @@ ul.posts li {
 
 ul.posts li a {
     text-decoration: none;
+    color: #060;
 }
 
 ul.posts li a:hover{
@@ -62,13 +46,13 @@ ul.posts li a:hover{
 }
 
 ul.posts li a:visited{
-    color: #445588;
+    /*color: #663;*/
 }
 
 ul.posts span {
     float: right;
     font-size: 14px;
-    color: #aaa;
+    color: #999;
 }
 
 /*****************************************************************************/
@@ -85,7 +69,7 @@ body {
 }
 
 .outbackground {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .site {
@@ -216,4 +200,23 @@ body {
     font-family: Monaco, "Courier New", monospace;
     margin-right: 3em;
     line-height: 35px;
+}
+
+.tags {
+    font-size: 18px;
+}
+
+.tags a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #996633;
+}
+
+.tagitem {
+    margin-top: 20px;
+}
+
+.tagitem h2 a{
+    text-decoration: none;
+    color: #996633;
 }

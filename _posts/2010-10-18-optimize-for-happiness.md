@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optimize for Happiness
-category: life
+category: 生活
 ---
 
 ##{{ page.title }}

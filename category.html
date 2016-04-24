@@ -1,0 +1,26 @@
+---
+layout: default
+title: xlbengl|category
+---
+<div>
+    <!--分类条目-->
+    <div class="tags">
+        {% for category in site.categories %}
+        <a href="#{{ category | first }}">{{ category | first }}</a>
+        <!--<span  class="category-number">{{ category | last | size }}</span>-->
+        {% endfor %}
+    </div>
+    <!--下面是具体的内容-->
+    {% for category in site.categories %}
+    <div class="tagitem">
+        <h2 ><a name="{{ category | first }}" href="#{{ category | first }}">{{ category | first }}</a>
+        </h2>
+
+        <ul class="posts">
+            {% for pos in category.last %}
+            <li><span>{{ pos.date | date_to_string }}</span><a href="{{ pos.url }}">{{ pos.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>

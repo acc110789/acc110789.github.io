@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 总结文章
-category: life
+category: 生活
 ---
 
 ##{{ page.title }}

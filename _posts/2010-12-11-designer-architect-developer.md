@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Designer, Architect, Developer
-category: tech
+category: 技术
 ---
 
 ##{{ page.title }}

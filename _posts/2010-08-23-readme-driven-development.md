@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Readme Driven Development
-category: life
+category: 生活
 ---
 
 ##{{ page.title }}

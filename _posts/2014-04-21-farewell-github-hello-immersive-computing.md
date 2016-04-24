@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Farewell GitHub, Hello Immersive Computing
-category: science
+category: 科研
 ---
 
 ##{{ page.title }}

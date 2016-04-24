@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Replicated - An Easier Path from SaaS to Enterprise
-category: other
+category: 其它
 ---
 
 ##{{ page.title }}
