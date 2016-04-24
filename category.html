@@ -18,7 +18,7 @@ title: xlbengl|category
 
         <ul class="posts">
             {% for pos in category.last %}
-            <li><span>{{ pos.date | date: "%Y-%m-%d" }}</span><a href="{{ pos.url }}">{{ pos.title }}</a></li>
+            <li class="item"><span>{{ pos.date | date: "%Y-%m-%d" }}</span><a href="{{ pos.url }}">{{ pos.title }}</a></li>
             {% endfor %}
         </ul>
     </div>
