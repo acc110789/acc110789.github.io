@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 总结文章
+category: life
 ---
 
 ##{{ page.title }}

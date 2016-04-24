@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Rejected Bio from The Setup
+category: tech
 ---
 
-{{ page.title }}
-================
-
+##{{ page.title }}
 <p class="meta">03 May 2011 - San Francisco</p>
 
 Yesterday, [the autobiographical post I wrote for The

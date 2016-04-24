@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Replicated - An Easier Path from SaaS to Enterprise
+category: other
 ---
 
-{{ page.title }}
-================
-
+##{{ page.title }}
 <p class="meta">19 Jun 2015 - San Francisco</p>
 
 Over the last year I've had a chance to learn a lot more about early stage
