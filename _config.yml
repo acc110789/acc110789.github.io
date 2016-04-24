@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 highlights: pygments
 incremental: true
 regenerate: true
