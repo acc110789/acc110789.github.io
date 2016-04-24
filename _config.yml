@@ -5,32 +5,15 @@ regenerate: true
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 safe: true
 timezone: Asia/Shanghai
-auto: false
 url:
 
 # Markdown 处理器
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
-
-kramdown:
-  input: GFM
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-  coderay:
-      coderay_wrap:              div
-      coderay_line_numbers:      inline
-      coderay_line_number_start: 1
-      coderay_tab_width:         4
-      coderay_bold_every:        10
-      coderay_css:               style
+#kramdown:
+#  auto_ids: true,
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  use_coderay: false
 
 
 domain: http://zhangxl.me
