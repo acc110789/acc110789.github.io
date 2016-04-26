@@ -1,13 +1,9 @@
-markdown: kramdown
 highlights: pygments
-incremental: true
-regenerate: true
-safe: true
+#incremental: true
+#regenerate: true
+#safe: true
 timezone: Asia/Shanghai
 url:
-
-
-
 
 domain: http://zhangxl.me
 title: xlbengle|blog
