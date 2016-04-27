@@ -77,6 +77,7 @@ body {
     text-align: justify;
     padding: 0 4em;
     line-height: 1.5em;
+    overflow: hidden;
 }
 
 .sectionBorder{
@@ -128,7 +129,7 @@ body {
 #post pre {
     border: 1px solid #ddd;
     background-color: #eef;
-    padding: 0 .4em;
+    margin: 12px 0;
 }
 
 #post ul,
@@ -139,7 +140,7 @@ body {
 #post code {
     border: 1px solid #ddd;
     background-color: #eef;
-    padding: 0 .2em;
+    padding: 0 2px;
 }
 
 #post pre code {
