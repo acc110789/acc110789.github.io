@@ -24,11 +24,12 @@ local repository也叫本地仓库(翻译过来).<br/>
 命令:
 
 ~~~
-git add <filename><br/>
-git add .<br/>
+git add <filename>
+git add .
 ~~~
-说明:<filename>是指文件的名称,后面遇到<filename>同理也是指文件名称,"."点一般是指所有文件"<br/>
-前者是添加一个文件,后者是添加所有文件.
+
+说明: &lt;filename&gt; 是指文件的名称,后面遇到&lt;filename&gt;同理也是指文件名称,\\
+"."点一般是指所有文件"前者是添加一个文件,后者是添加所有文件.
 
 <br/>
 
