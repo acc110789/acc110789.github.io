@@ -8,14 +8,13 @@ tag: git
 
 ![git详解](http://i.stack.imgur.com/caci5.png)
 
-这张图已经是比较清楚了,稍微解释一下图.<br/>
-几个概念:<br/>
-图中的workspace有时候也叫working tree,也叫工作区.<br/>
-index也叫暂存区,还叫staged index,staged area.<br/>
-local repository也叫本地仓库(翻译过来)吧.
+<br/>
 
-有一点需要注意(图中并没有予以说明):
-> index和local reposiry里面的东西都是放到objects里面的.
+在看git文档的时候,概念要先搞清楚:<br/>
+图中的workspace也叫working tree,也叫工作区.<br/>
+index也叫暂存区,还叫staged index,staged area.<br/>
+local repository也叫本地仓库(翻译过来).<br/>
+上面的图已经是比较清楚的展示了git的主要操作了,下面是具体解释.
 
 <br/>
 
@@ -98,6 +97,9 @@ diff
 ~~~
 diff HEAD
 ~~~
+
+有一点需要注意(图中并没有予以说明):
+> index和local reposiry里面的东西都是放到objects里面的.
 
 
 
