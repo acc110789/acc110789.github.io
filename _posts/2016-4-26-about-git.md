@@ -43,10 +43,12 @@ local repository也叫本地仓库(翻译过来)吧.
 ### local repository ---> index ---> workspace<br/>
 将index和workspace都reset到local repository当前的状态<br/>
 命令: `git checkout HEAD .` 或者 `git checkout HEAD <filename>`
+<br/>
 
 ### diff(workspace,index)<br/>
 比较workspace和index之间的不同<br/>
 命令:`diff`
+<br/>
 
 ### diff(workspace,local repository)<br/>
 比较workspace和local repository之间的不同<br/>
