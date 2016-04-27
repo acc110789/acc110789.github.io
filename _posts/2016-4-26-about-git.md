@@ -23,6 +23,7 @@ local repository也叫本地仓库(翻译过来)吧.
 将index更新到workspace当前的状态<br/>
 不论是新建的文件还是被修改过的文件,都要执行add才能从workspace添加到index区域.<br/>
 命令:
+
 ~~~
 git add <filename><br/>
 git add .<br/>
@@ -35,6 +36,7 @@ git add .<br/>
 ### index ---> workspace<br/>
 把workspace当前的状态reset到index的当前状态<br/>
 命令:
+
 ~~~
 git checkout .
 git checkout <filename>
@@ -45,6 +47,7 @@ git checkout <filename>
 ### index ---> local repository<br/>
 将index的当前状态更新到local repository中<br/>
 命令:
+
 ~~~
 git commit -m <message>
 ~~~
@@ -60,6 +63,7 @@ git commit -m <message>
 ### workspace ---> index ---> local repository <br/>
 将workspace的更改更新到index和local repository中<br/>
 命令:
+
 ~~~
 git commit -a
 ~~~
@@ -69,6 +73,7 @@ git commit -a
 ### local repository ---> index ---> workspace<br/>
 将index和workspace都reset到local repository当前的状态<br/>
 命令:
+
 ~~~
 git checkout HEAD .
 git checkout HEAD <filename>
@@ -79,6 +84,7 @@ git checkout HEAD <filename>
 ### diff(workspace,index)<br/>
 比较workspace和index之间的不同<br/>
 命令:
+
 ~~~
 diff
 ~~~
@@ -88,6 +94,7 @@ diff
 ### diff(workspace,local repository)<br/>
 比较workspace和local repository之间的不同<br/>
 命令:
+
 ~~~
 diff HEAD
 ~~~
