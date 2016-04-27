@@ -1,4 +1,5 @@
-highlights: pygments
+markdown: kramdown
+highlighter: rouge
 #incremental: true
 #regenerate: true
 #safe: true
