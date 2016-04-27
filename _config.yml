@@ -1,4 +1,6 @@
 markdown: kramdown
+kramdown:
+    input: GFM
 highlighter: rouge
 #incremental: true
 #regenerate: true
