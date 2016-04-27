@@ -17,25 +17,43 @@ local repository也叫本地仓库(翻译过来)吧.
 有一点需要注意(图中并没有予以说明):
 > index和local reposiry里面的东西都是放到objects里面的.
 
-workspace --> index : git add <filename><br/> 或者 git add .<br/>
-前者是添加一个文件,后者是添加所有文件
-<filename>是指文件的名称,后面遇到<filename>同理也是指文件名称,不论是新建的
- 文件还是被修改过的文件,都要执行add才能从workspace添加到index区域.
+workspace ---> index <br/>
+将index更新到workspace当前的状态<br/>
+不论是新建的文件还是被修改过的文件,都要执行add才能从workspace添加到index区域.<br/>
+命令: git add <filename><br/> 或者 git add .<br/>
+说明:<filename>是指文件的名称,后面遇到<filename>同理也是指文件名称,"."点一般是指所有文件"<br/>
+前者是添加一个文件,后者是添加所有文件.
 
-index ---> workspace : git checkout . 或者 git checkout <filename><br/>
-前者把整个workspace当前的状态reset到index的当前状态,后者是把workspace中
-一个文件reset到index的状态.
+index ---> workspace<br/>
+把workspace当前的状态reset到index的当前状态<br/>
+命令: git checkout . 或者 git checkout <filename>
 
-index ---> local repository: git commit -m <message><br/>
-这个就不解释了.
+index ---> local repository<br/>
+将index的当前状态更新到local repository中<br/>
+命令:git commit -m <message>
 
-local repository ---> index ---> workspace
+local repository ---> index<br/>
+将index的状态reset到local repository当前的状态<br/>
+命令:
 
-http://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git
+workspace ---> index ---> local repository <br/>
+将workspace的更改更新到index和local repository中<br/>
+命令: git commit -a
 
-http://blog.csdn.net/felix_f/article/details/8777463
+local repository ---> index ---> workspace<br/>
+将index和workspace都reset到local repository当前的状态<br/>
+命令: git checkout HEAD . 或者 git checkout HEAD <filename>
 
-明天再写
+diff(workspace,index)<br/>
+比较workspace和index之间的不同<br/>
+命令:diff
+
+diff(workspace,local repository)<br/>
+比较workspace和local repository之间的不同<br/>
+命令:diff HEAD
+
+
+
 
 
 
