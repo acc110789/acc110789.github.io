@@ -43,7 +43,7 @@ ul.posts li.item {
 
 ul.posts li.item a {
     text-decoration: none;
-    color: #060;
+    color: black;
 }
 
 ul.posts li.item a:hover{
