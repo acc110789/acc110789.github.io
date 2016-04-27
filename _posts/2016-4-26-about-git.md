@@ -5,6 +5,7 @@ category: 技术
 tag: git
 ---
 ##{{page.title}}
+##水稻
 
 ![git详解](http://i.stack.imgur.com/caci5.png)
 
