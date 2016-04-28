@@ -1,7 +1,5 @@
 ---
-layout: post
 title: git detached head 和 reset
-category: 技术
 tag: git
 ---
 ## {{page.title}}

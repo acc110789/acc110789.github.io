@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 总结&计划
-category: 生活
 ---
 
 ## {{ page.title }}

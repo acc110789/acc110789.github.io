@@ -1,7 +1,6 @@
 ---
 title: git补充(常见命令)
 tag: git
-category: 技术
 ---
 ## {{ page.title }}
 

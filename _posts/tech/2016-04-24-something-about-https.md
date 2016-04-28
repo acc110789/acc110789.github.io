@@ -1,8 +1,6 @@
 ---
-layout: post
 title: https的基本原理
 tag: http
-category: tech
 ---
 
 ## {{ page.title }}

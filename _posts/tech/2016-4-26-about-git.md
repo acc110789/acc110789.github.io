@@ -1,7 +1,5 @@
 ---
-layout: post
 title: git图解基本概念
-category: 技术
 tag: git
 ---
 ## {{page.title}}
