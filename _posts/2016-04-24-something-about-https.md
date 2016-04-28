@@ -75,7 +75,13 @@ DATA = plain|E(H(plain))
 
 ### HTTPS
 
-https的大概过程是这样的:
+https的通信过程
+
+![https通信过程](http://cdn.liqwei.com/www/201211/20121130144420002.png)
+
+主要的过程如下:
+
+<br/>
 
 1. 客户端发起连接
 2. 服务器把自己的证书发给客户端
