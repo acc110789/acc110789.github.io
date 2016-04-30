@@ -28,8 +28,14 @@ defaults:
     values:
       category: 生活
   -
-      scope:
-        path: "_posts/tech"
-        type: "posts"
-      values:
-        category: 技术
+    scope:
+      path: "_posts/tech"
+      type: "posts"
+    values:
+      category: 技术
+  -
+    scope:
+      path: "_posts/science"
+      type: "posts"
+    values:
+      category: 科研
