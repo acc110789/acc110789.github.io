@@ -63,7 +63,7 @@ ul.posts li.item span {
 /*****************************************************************************/
 body {
     height: 100%;
-    width: 750px;
+    width: 850px;
     margin: 0 auto;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -75,7 +75,7 @@ body {
 
 .site {
     text-align: justify;
-    padding: 0 4em;
+    padding: 0 55px;
     line-height: 1.5em;
     overflow: hidden;
 }
@@ -144,6 +144,8 @@ body {
 }
 
 #post pre code {
+    line-height: 1.2em;
+    font-size: 15px;
     border: none;
 }
 
