@@ -104,7 +104,7 @@ public enum State {
     }
 ~~~
 
-[Thread state](http://journals.ecs.soton.ac.uk/java/tutorial/java/threads/states.html)
+内容很好的一个链接[Thread state](http://journals.ecs.soton.ac.uk/java/tutorial/java/threads/states.html)
 
 <br/>
 
