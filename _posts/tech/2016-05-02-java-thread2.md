@@ -122,8 +122,8 @@ public enum State {
     public final native boolean isAlive();
 ~~~
 
-感觉解释的还是挺模糊的,看了网上一些解释,有的说是run方法开始运行,一直到run方法结束
-(抛出Exception也算结束)在这个期间算是alive,我感觉这个说法不对.我感觉这么定义:
+感觉解释的还是挺模糊的,看了网上一些解释,有的说是start方法开始运行后,一直到run方法结束完毕
+(抛出Exception也算结束)在这个期间算是alive.感觉这个说法不是很准确.我感觉这么定义:
 当`getState`返回的不是`NEW`和`TERMINATED`是都算是alive,否则就不是alive.
 也有人认为比如A,B两个线程,A调用了`B.start()`之后B就算是alive了,当B的run方法
 执行完毕之后就不算是alive了.
