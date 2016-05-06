@@ -157,4 +157,4 @@ ConcurrentModificationException.
 要么先遍历目标Collection,再遍历本Collection.读者仔细想一想,先遍历本Collection效率
 会高一点点,因为在遍历目标Collection的过程中,可能还没有遍历完就已经找到有和当前元素相同的元素了.
 但是如果先遍历目标Collection却一定要将两个遍历全都走一遍才行.\\
-AbstractSet由于其特殊性可以在removeAll的进一步提高效率
+AbstractSet由于其特殊性可以在removeAll的进一步提高效率,相同的元素我先输入中文行不行
