@@ -39,3 +39,9 @@ defaults:
       type: "posts"
     values:
       category: 科研
+  -
+    scope:
+      path: "_posts/protocol"
+      type: "posts"
+    values:
+      category: 协议
