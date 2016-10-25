@@ -196,3 +196,19 @@ public class B787Builder extends AbstractPlaneBuilder {
     }
 }
 ~~~
+
+<br/>
+
+### 客户端构造一个飞机
+
+~~~java
+public class Client {
+    public static void main(String[] args){
+        Plane plane1 = new PlaneDirector(new B787Builder()).construct();
+        plane1.print();
+
+        Plane plane2 = new PlaneDirector(new A380Builder()).construct();
+        plane2.print();
+    }
+}
+~~~
