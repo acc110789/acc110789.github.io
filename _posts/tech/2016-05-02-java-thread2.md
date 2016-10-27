@@ -5,8 +5,6 @@ tag: java
 
 ## {{ page.title }}
 
-<br/>
-
 ### interrupt
 关于`Thread.interrupt`方法的注释的原文如下.
 
@@ -28,8 +26,6 @@ tag: java
 除了注释中所说的情况外,在其它情况下(此时线程A正在正常的执行代码)调用了
 `A.interrupt()`,此时仅仅是给A线程设置interrupted的标志,A线程仍然正常执行.\\
 java中应该是没有办法正常中断(即不引起一些异常)一个线程的执行.
-
-<br/>
 
 ### State
 线程也有生命周期,java将其生命周期划分为几种状态,通过调用`Thread.getState()`或者
@@ -105,8 +101,6 @@ public enum State {
 ~~~
 
 内容很好的一个链接[Thread state](http://journals.ecs.soton.ac.uk/java/tutorial/java/threads/states.html)
-
-<br/>
 
 ### alive
 `Thread`有个方法是这样的.

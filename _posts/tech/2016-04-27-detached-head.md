@@ -6,8 +6,6 @@ tag: git
 关于detached head这一块的内容,看了很多,还是觉得官方文档讲的很好,而且已经很直白了.
 看了detached head再理解reset就很简单了.
 
-<br/>
-
 ### detached head
 HEAD normally refers to a named branch (e.g. master).
 Meanwhile, each branch refers to a specific commit.
@@ -170,7 +168,5 @@ git reset --hard  <commit> (3)
 (1)除了移动branch之外什么都不做\\
 (2)除了移动branch之外还要更新index\\
 (3)除了移动branch之外还要更新index和workspace
-
-<br/>
 
 #### Reference : [git-checkout](https://git-scm.com/docs/git-checkout)

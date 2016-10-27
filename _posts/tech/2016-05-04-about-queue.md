@@ -5,8 +5,6 @@ tag: java
 
 ## {{ page.title }}
 
-<br/>
-
 1. 我原来总是有一种印象,总是觉得队列`Queue`是一种特殊的满足"先进先出"特征的`List`,
 实际上只要满足"先进先出"的就是`Queue`,`Queue`的组织形式不一定是`List`.在java
 中,`Queue`接口是继承自`Collection`,而不是`List`.

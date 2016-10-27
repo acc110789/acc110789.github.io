@@ -13,12 +13,18 @@
 
 h2{
     font-size: 23px;
-    margin-bottom: 8px;
 }
 
 h3{
     font-size: 19px;
-    margin-bottom: 6px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.2em;
+}
+
+p{
+    margin-bottom: 1em;
 }
 
 html {
@@ -129,12 +135,13 @@ body {
 #post pre {
     border: 1px solid #ddd;
     background-color: #eef;
-    margin: 12px 0;
+    margin-bottom: 2em;
 }
 
 #post ul,
 #post ol {
     margin-left: 1.35em;
+    margin-bottom: 0.5em;
 }
 
 #post code {

@@ -6,7 +6,10 @@ title: xlbengle|home
 <div>
     <ul class="posts">
         {% for pos in site.posts %}
-        <li class="item"><span>{{ pos.date | date: "%Y-%m-%d" }}</span><a href="{{ pos.url }}">{{ pos.title }}</a></li>
+        <li class="item">
+            <span>{{ pos.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ pos.url }}">{{ pos.title }}</a>
+        </li>
         {% endfor %}
     </ul>
 </div>

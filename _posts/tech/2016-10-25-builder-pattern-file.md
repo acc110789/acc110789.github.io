@@ -13,8 +13,6 @@ Builder来完成,由于不同的产品的构造细节是不同的,因此,构造�
 可以由一个Director来控制,但是不同的飞机比如B787和A380的具体建造过程建造的是不同的机身、机翼、机头、机尾。
 下面是建造者模式造飞机的例子。
 
-<br/>
-
 ### 飞机这个产品
 
 ~~~ java
@@ -78,8 +76,6 @@ public class Plane {
 }
 ~~~
 
-<br/>
-
 ### 飞机的细节构造接口
 
 ~~~java
@@ -92,8 +88,6 @@ public interface PlaneBuilder {
     Plane getPlane();
 }
 ~~~
-
-<br/>
 
 ### 飞机的大体构造过程
 
@@ -116,8 +110,6 @@ public class PlaneDirector {
 }
 ~~~
 
-<br/>
-
 ### 飞机细节构造的抽象类
 
 ~~~java
@@ -130,8 +122,6 @@ public abstract class AbstractPlaneBuilder implements PlaneBuilder {
     }
 }
 ~~~
-
-<br/>
 
 ### A380的细节构造类
 
@@ -164,8 +154,6 @@ public class A380Builder extends AbstractPlaneBuilder {
 }
 ~~~
 
-<br/>
-
 ### B787的细节构造类
 
 ~~~java
@@ -196,8 +184,6 @@ public class B787Builder extends AbstractPlaneBuilder {
     }
 }
 ~~~
-
-<br/>
 
 ### 客户端构造一个飞机
 

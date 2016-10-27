@@ -4,12 +4,7 @@ title: URL和URI的区别
 
 ## {{ page.title }}
 
-<br/>
-
 ### 转载自[http://www.cnblogs.com/gaojing/archive/2012/02/04/2413626.html](http://www.cnblogs.com/gaojing/archive/2012/02/04/2413626.html)
-以后有时间在进行修改
-
-<br/>
 
 这两天在写代码的时候，由于涉及到资源的位置，因此，需要在Java Bean中定义一些字段，用来表示资源的位置,
 比如：imgUrl，logoUri等等。但是，每次定义的时候，心里都很纠结，是该用imgUrl还是imgUri呢？
@@ -22,8 +17,6 @@ title: URL和URI的区别
 
 带着这些问题到网上去搜了下，没发现让自己看了明白的解释，于是，想到了Java类库里有两个对应的
 类java.net.URI和java.net.URL，终于，在这两个类里的javadoc里找到了答案。
-
-<br/>
 
 ### URIs, URLs, and URNs
 
@@ -64,12 +57,9 @@ and server path, but it does not include query string parameters.
 URI是一种语义上的抽象概念，可以是绝对的，也可以是相对的，而URL则必须提供足够的信息来定位，
 所以，是绝对的，而通常说的relative URL，则是针对另一个absolute URL，本质上还是绝对的。
 
-注：这里的绝对(absolute)是指包含scheme，而相对(relative)则不包含scheme。
-
-URI抽象结构  `[scheme:]scheme-specific-part[#fragment]`
-
-`[scheme:][//authority][path][?query][#fragment]`
-
+注：这里的绝对(absolute)是指包含scheme，而相对(relative)则不包含scheme。\\
+URI抽象结构  `[scheme:]scheme-specific-part[#fragment]`\\
+`[scheme:][//authority][path][?query][#fragment]`\\
 authority为`[user-info@]`host`[:port]`
 
 ps:\\

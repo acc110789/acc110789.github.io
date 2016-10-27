@@ -4,15 +4,13 @@ title: AbstractCollection
 ---
 ## {{page.title}}
 
-<br/>
-
 ### AbstractCollection
 `AbstractCollection`实现了`Collection`的大多数方法,还有以下两个方法没有实现.
 
 ~~~java
-    public abstract Iterator<E> iterator();
+       public abstract Iterator<E> iterator();
 
-    public abstract int size();
+       public abstract int size();
 ~~~
 
 实际上`size()`方法可以在`AbstractCollection`实现如下.
@@ -30,8 +28,6 @@ title: AbstractCollection
 ~~~
 
 但是这种效率极低的方式看起来确实有点蛋疼,不过理论上确实可以这么实现.
-
-<br/>
 
 ### AbstractList
 `AbstractList`继承自`AbstractCollection`,这个虚类还有两个方法没有实现.
@@ -109,13 +105,12 @@ modCount!=expectedModCount,在next和remove的时候都会执行checkForComodifi
 会造成另一个线程在执行iterator的next方法的时候,checkForComodification失败,继而抛出
 ConcurrentModificationException.
 
-<br/>
-
 ### AbstractSet
 基本上还是`AbstractCollection`的接口函数,比较重要的是重写了`equals`函数,新函数认为,只要
 对方也是set,且二者包含的元素相同就认为这个set相等.\\
 `hashCode`是把所有元素的`hashCode`加起来.\\
 最重要的是重写`removeAll`方法.
+
 ~~~java
     //AbstractCollection中的实现
     public boolean removeAll(Collection<?> c) {

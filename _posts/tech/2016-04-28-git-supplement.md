@@ -8,8 +8,6 @@ tag: git
 操作,执行 `git add --help` 然后拉到最下面看example,里面有常见的操作.本文还是将
 常见的操作列举出来.
 
-<br/>
-
 ### 创建新版本库
 
 拷贝已有的版本库
@@ -27,8 +25,6 @@ git clone <url>
 4.  git push -f origin master
 ~~~
 
-<br/>
-
 ### 切换分支
 
 ~~~
@@ -38,8 +34,6 @@ git checkout -b dev
 git checkout -b dev origin/dev
 #dev 作为远程dev分支的拷贝并切换至dev
 ~~~
-
-<br/>
 
 ### 分支操作
 
@@ -51,8 +45,6 @@ git branch -d dev #删除本地dev分支
 git push origin :dev #删除远程分支(也就是push一个空的分支过去)
 ~~~
 
-<br/>
-
 ### 远程代号
 远程代号一个字符串,这个字符串指的是一个url地址,比如origin.
 
@@ -61,8 +53,6 @@ git remote -v #列出所有代号
 git remote add origin <url> #让origin指向<url>
 git remote remove origin #删除远程代号origin
 ~~~
-
-<br/>
 
 ### 补充修改和提交
 
@@ -95,8 +85,6 @@ git rebase -i <commit>
 #找到当前分支和commit第一个不同的commit1,然后从commit1开始
 #把当前的所有commit放在<commit>上面
 ~~~
-
-<br/>
 
 ### 其它常用
 

@@ -6,8 +6,6 @@ tag: java
 ## {{ page.title }}
 今天把java中关于线程池的常用Api梳理一下
 
-<br/>
-
 ### Executor
 
 ~~~ java
@@ -20,8 +18,6 @@ public interface Executor {
     void execute(Runnable command);
 }
 ~~~
-
-<br/>
 
 ### ExecutorService
 `ExecutorService`继承自`Executor`,多了生命周期这么一个概念
@@ -76,12 +72,9 @@ public interface ExecutorService extends Executor {
 所以可以理解为ExecutorService有三个状态,一个就是正常状态,第二个是`shutdown`状态,
 第三个是`terminated`状态.
 
-<br/>
-
 ### ThreadPoolExecutor
 `ThreadPoolExecutor`继承自`AbstractExecutorService`,是`ExecutorService`的具体
-实现.\\
-ThreadPoolExecutor有三个概念corePoolSize,maximumPoolSize,workQueue.\\
+实现.ThreadPoolExecutor有三个概念corePoolSize,maximumPoolSize,workQueue.
 当一个任务通过execute(Runnable)方法欲添加到线程池时,采用如下的链条处理.
 
 1. 如果此时线程池中的数量小于corePoolSize，即使线程池中的线程都处于空闲状态，
@@ -97,8 +90,6 @@ ThreadPoolExecutor有三个概念corePoolSize,maximumPoolSize,workQueue.\\
 处理任务的优先级为：核心线程corePoolSize、任务队列workQueue、
 最大线程maximumPoolSize，如果三者都满了，使用handler处理被拒绝的任务。
 
-<br/>
-
 核心和最大池的大小\\
 ThreadPoolExecutor将根据corePoolSize(参见getCorePoolSize())
 和maximumPoolSize(参见getMaximumPoolSize())设置的边界自动调整池大小.
@@ -110,15 +101,12 @@ corePoolSize,则创建新线程来处理请求,即使其他线程是空闲的.�
 则允许池适应任意数量的并发任务.在大多数情况下,核心和最大池大小仅基于构造来设置,
 不过也可以使用setCorePoolSize()和setMaximumPoolSize()进行动态更改。
 
-<br/>
 保持活动时间\\
 如果池中当前有多于corePoolSize的线程,则这些多出的线程在空闲时间超过
 keepAliveTime时将会终止(参见getKeepAliveTime()).
 这提供了当池处于非活动状态时减少资源消耗的方法.如果池后来变得更为活动,则可以创建新的线程.
 也可以使用方法setKeepAliveTime()动态地更改此参数.使用(Long.MAX_VALUE,TimeUnit.NANOSECONDS)
 的值在关闭前有效地从以前的终止状态禁用空闲线程。
-
-<br/>
 
 注意的事情\\
 因大于corePoolSize而小于等于maximumPoolSize额外申请的那部分线程在执行完其任务
