@@ -136,6 +136,7 @@ body {
     border: 1px solid #ddd;
     background-color: #eef;
     margin-bottom: 2em;
+    overflow: auto
 }
 
 #post ul,
