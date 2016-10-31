@@ -73,6 +73,14 @@ sudo mysql.server start  #服务端开启服务
 mysql -h localhost -u root -p #客户端这边使用密码登录即可
 ~~~
 
-### 其它的Tips
+### 补充
 
-要查看命令执行的其它参数,使用 ps aux | grep mysql即可。
+第四步之后能进去了,但是没法做事情,总是提示让reset密码。执行下面的命令
+
+~~~
+SET PASSWORD = PASSWORD(‘your new password‘);
+ALTER USER root@localhost PASSWORD EXPIRE NEVER;
+flush privileges;
+~~~
+
+然后应该就可以了。
